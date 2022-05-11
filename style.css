@@ -1,6 +1,16 @@
-div {
-    width: 35px;
-    height: 5px;
+.hamburger {
+    width: 20px;
+    height: 2px;
     background-color: black;
-    margin: 6px 0;
+    margin: 4px 0;
+}
+
+header .conteiner {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+header img {
+    height: 20px;
 }
