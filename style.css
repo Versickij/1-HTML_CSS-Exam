@@ -14,3 +14,20 @@ header .conteiner {
 header img {
     height: 20px;
 }
+
+.lausoon {
+    color: rgb(219, 19, 142);
+    padding: 30px;
+    font-size: 12px;
+}
+
+.h1_and_graphic img {
+    height: 160px;
+}
+
+.h1_and_graphic {
+    display: flex;
+    padding: 0px 30px;
+    align-items: flex-end;
+}
+
