@@ -17,7 +17,7 @@ header img {
 
 .lausoon {
     color: rgb(219, 19, 142);
-    padding: 30px;
+    padding: 0 30px;
     font-size: 12px;
 }
 
@@ -31,3 +31,14 @@ header img {
     align-items: flex-end;
 }
 
+.text_and_button p {
+    padding: 0 30px;
+}
+
+button {
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin: 0px 30px;
+    background-color: white;
+    border-color: red
+}
