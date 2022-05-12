@@ -46,6 +46,9 @@ button {
 .background {
     height: 200px;
     margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
 }
 
 .companies img {
@@ -106,6 +109,12 @@ footer {
 
 .end img:first-child {
     height: 20px;
+    padding: 30px;
+}
+
+td {
+    text-align: left;
+    padding: 10px;
 }
 
 @media only screen and (min-width: 400px) {
@@ -135,6 +144,11 @@ footer {
         display: flex;
         gap: 20px;
         justify-content: space-between;
+    }
+
+    .background {
+        flex-direction: column;
+        align-content: flex-start;
     }
 
 }
