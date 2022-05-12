@@ -43,3 +43,19 @@ button {
     border-color: red
 }
 
+.background {
+    height: 200px;
+    margin-top: 50px;
+}
+
+.companies img {
+    height: 25px;
+    padding: 30px
+}
+
+.companies {
+    display: grid;
+    grid-template-columns: repeat(2, 130px);
+    grid-template-rows: repeat(3, 5px);
+    gap: 50px;
+}
