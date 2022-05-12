@@ -98,3 +98,43 @@ button {
 .end img {
     height: 60px;
 }
+
+footer {
+    color: rgb(85, 85, 85);
+    text-align: center
+}
+
+.end img:first-child {
+    height: 20px;
+}
+
+@media only screen and (min-width: 400px) {
+    .conteiner {
+        width: 1300px;
+        margin: 0 auto;
+    }
+
+    header .conteiner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1rem;
+        box-sizing: border-box;
+    }
+
+    .companies {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .h1_and_graphic img {
+        height: 400px;
+    }
+
+    .nft_mans {
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+}
