@@ -85,3 +85,16 @@ button {
     color: rgb(134, 134, 134);
     text-align: center;
 }
+
+.upsell-footer img {
+    height: 300px;
+}
+
+.upsell-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.end img {
+    height: 60px;
+}
