@@ -59,3 +59,29 @@ button {
     grid-template-rows: repeat(3, 5px);
     gap: 50px;
 }
+
+.super_rare {
+    margin-top: 80px;
+    padding-left: 30px;
+}
+
+.super_rare h2 {
+    font-weight:normal
+}
+
+.nft_mans img {
+    height: 180px;
+}
+
+.nft_mans {
+    display: flex;
+    gap: 30px;
+    padding-left: 30px;
+}
+
+.item1_1, .item2_2, .item3_3, .item4_4  {
+    background-color: #eee;
+    border-radius: 10px;
+    color: rgb(134, 134, 134);
+    text-align: center;
+}
